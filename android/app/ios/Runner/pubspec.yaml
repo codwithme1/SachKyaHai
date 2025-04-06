@@ -1,0 +1,27 @@
+name: sach_kya_hai
+description: Aapko bataye kya sahi hai, kya galat – based on religious books.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  speech_to_text: ^6.1.0
+  flutter_tts: ^3.6.3
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/
+    - assets/texts/
+    
